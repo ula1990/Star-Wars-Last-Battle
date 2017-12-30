@@ -9,6 +9,7 @@
 import SpriteKit
 import GameplayKit
 import CoreMotion
+import AVFoundation
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
@@ -26,7 +27,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var gameTimer: Timer!
     
-    var possibleAliens = ["alien", "alien1"]
+    var possibleAliens = ["alien", "alien1", "alien2"]
     
     let alienCategory: UInt32 = 0x1 << 1
     let photonTorpedoCategory:UInt32 = 0x1 << 0
@@ -57,7 +58,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         scoreLabel.position = CGPoint(x: 10, y: 500 )
         
         scoreLabel.fontName = "AmericanTypewriter-Bold"
-        scoreLabel.fontSize = 36
+        scoreLabel.fontSize = 40
         scoreLabel.fontColor = UIColor.white
         score = 0
         
@@ -65,7 +66,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         
         
-        gameTimer = Timer.scheduledTimer(timeInterval: 0.75, target: self, selector: #selector(addAlien), userInfo: nil, repeats: true)
+        gameTimer = Timer.scheduledTimer(timeInterval: 0.25, target: self, selector: #selector(addAlien), userInfo: nil, repeats: true)
         
         
         motionManager.accelerometerUpdateInterval = 0.2
@@ -187,7 +188,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             
         }
         
-        score += 5
+        score += 1
         
         
     }

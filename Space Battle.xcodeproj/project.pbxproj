@@ -19,6 +19,7 @@
 		751959991FF81C6A005901F9 /* torpede.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 751959981FF81C6A005901F9 /* torpede.mp3 */; };
 		7519599E1FF81DFA005901F9 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7519599C1FF81DFA005901F9 /* Starfield.sks */; };
 		7519599F1FF81DFA005901F9 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7519599D1FF81DFA005901F9 /* Explosion.sks */; };
+		751959A11FF84115005901F9 /* starwars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 751959A01FF84115005901F9 /* starwars.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		751959981FF81C6A005901F9 /* torpede.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpede.mp3; sourceTree = "<group>"; };
 		7519599C1FF81DFA005901F9 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 		7519599D1FF81DFA005901F9 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		751959A01FF84115005901F9 /* starwars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starwars.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				7519598B1FF818D7005901F9 /* Assets.xcassets */,
 				751959961FF81BE2005901F9 /* explosion.mp3 */,
 				751959981FF81C6A005901F9 /* torpede.mp3 */,
+				751959A01FF84115005901F9 /* starwars.mp3 */,
 				7519598D1FF818D7005901F9 /* LaunchScreen.storyboard */,
 				751959901FF818D7005901F9 /* Info.plist */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751959A11FF84115005901F9 /* starwars.mp3 in Resources */,
 				751959971FF81BE2005901F9 /* explosion.mp3 in Resources */,
 				7519598A1FF818D7005901F9 /* Main.storyboard in Resources */,
 				7519599E1FF81DFA005901F9 /* Starfield.sks in Resources */,
