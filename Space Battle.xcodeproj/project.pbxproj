@@ -15,6 +15,10 @@
 		7519598A1FF818D7005901F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751959881FF818D7005901F9 /* Main.storyboard */; };
 		7519598C1FF818D7005901F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7519598B1FF818D7005901F9 /* Assets.xcassets */; };
 		7519598F1FF818D7005901F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7519598D1FF818D7005901F9 /* LaunchScreen.storyboard */; };
+		751959971FF81BE2005901F9 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 751959961FF81BE2005901F9 /* explosion.mp3 */; };
+		751959991FF81C6A005901F9 /* torpede.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 751959981FF81C6A005901F9 /* torpede.mp3 */; };
+		7519599E1FF81DFA005901F9 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7519599C1FF81DFA005901F9 /* Starfield.sks */; };
+		7519599F1FF81DFA005901F9 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7519599D1FF81DFA005901F9 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		7519598B1FF818D7005901F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7519598E1FF818D7005901F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751959901FF818D7005901F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751959961FF81BE2005901F9 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		751959981FF81C6A005901F9 /* torpede.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpede.mp3; sourceTree = "<group>"; };
+		7519599C1FF81DFA005901F9 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		7519599D1FF81DFA005901F9 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +71,14 @@
 				7519597E1FF818D7005901F9 /* AppDelegate.swift */,
 				751959801FF818D7005901F9 /* GameScene.sks */,
 				751959821FF818D7005901F9 /* Actions.sks */,
+				7519599D1FF81DFA005901F9 /* Explosion.sks */,
+				7519599C1FF81DFA005901F9 /* Starfield.sks */,
 				751959841FF818D7005901F9 /* GameScene.swift */,
 				751959861FF818D7005901F9 /* GameViewController.swift */,
 				751959881FF818D7005901F9 /* Main.storyboard */,
 				7519598B1FF818D7005901F9 /* Assets.xcassets */,
+				751959961FF81BE2005901F9 /* explosion.mp3 */,
+				751959981FF81C6A005901F9 /* torpede.mp3 */,
 				7519598D1FF818D7005901F9 /* LaunchScreen.storyboard */,
 				751959901FF818D7005901F9 /* Info.plist */,
 			);
@@ -132,11 +144,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751959971FF81BE2005901F9 /* explosion.mp3 in Resources */,
 				7519598A1FF818D7005901F9 /* Main.storyboard in Resources */,
+				7519599E1FF81DFA005901F9 /* Starfield.sks in Resources */,
 				751959811FF818D7005901F9 /* GameScene.sks in Resources */,
 				7519598C1FF818D7005901F9 /* Assets.xcassets in Resources */,
 				7519598F1FF818D7005901F9 /* LaunchScreen.storyboard in Resources */,
+				751959991FF81C6A005901F9 /* torpede.mp3 in Resources */,
 				751959831FF818D7005901F9 /* Actions.sks in Resources */,
+				7519599F1FF81DFA005901F9 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4NGAZXKWW;
 				INFOPLIST_FILE = "Space Battle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Uladzislau-Daratsiuk.Space-Battle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4NGAZXKWW;
 				INFOPLIST_FILE = "Space Battle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Uladzislau-Daratsiuk.Space-Battle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
