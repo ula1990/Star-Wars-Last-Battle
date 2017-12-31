@@ -10,8 +10,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="HiraginoMincho.ttc">
-            <string>HiraMinProN-W6</string>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-UltraLight</string>
         </array>
     </customFonts>
     <scenes>
@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="height" constant="67" id="0cs-uI-VxA"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="186" id="FJ2-OX-5c3"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="38"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="43"/>
                                 <state key="normal" title="Let's Play">
                                     <color key="titleColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -51,6 +51,13 @@
                                     <action selector="soundButton:" destination="vtM-9n-NAf" eventType="touchUpInside" id="EBo-cL-OXX"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="RWp-fN-shy">
+                                <rect key="frame" x="132" y="112" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="Bym-GG-x1y"/>
+                                    <constraint firstAttribute="width" constant="110" id="RMN-FC-Fo2"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -60,6 +67,8 @@
                             <constraint firstItem="Cm3-Rl-Xmz" firstAttribute="leading" secondItem="JCb-N6-m7J" secondAttribute="leading" id="SjG-LT-lNS"/>
                             <constraint firstItem="JCb-N6-m7J" firstAttribute="trailing" secondItem="Cm3-Rl-Xmz" secondAttribute="trailing" id="heZ-df-ftR"/>
                             <constraint firstItem="8p7-9I-lAG" firstAttribute="top" secondItem="Cm3-Rl-Xmz" secondAttribute="top" id="jh3-FO-aJ2"/>
+                            <constraint firstItem="RWp-fN-shy" firstAttribute="top" secondItem="JCb-N6-m7J" secondAttribute="top" constant="92" id="q9k-Ye-Zet"/>
+                            <constraint firstItem="RWp-fN-shy" firstAttribute="centerX" secondItem="Cm3-Rl-Xmz" secondAttribute="centerX" id="ujq-el-0Ge"/>
                             <constraint firstItem="Cm3-Rl-Xmz" firstAttribute="top" secondItem="JCb-N6-m7J" secondAttribute="top" id="xWo-Oh-5yo"/>
                             <constraint firstItem="8p7-9I-lAG" firstAttribute="trailing" secondItem="Cm3-Rl-Xmz" secondAttribute="trailing" id="xfu-NH-8B0"/>
                         </constraints>
@@ -90,6 +99,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="logo" width="96" height="96"/>
         <image name="menuBackground" width="1080" height="1920"/>
         <image name="play" width="96" height="96"/>
     </resources>
