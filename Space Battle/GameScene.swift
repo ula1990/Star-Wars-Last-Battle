@@ -27,7 +27,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var gameTimer: Timer!
     
-    var possibleAliens = ["alien", "alien1", "alien2"]
+    var possibleAliens = ["alien", "alien1", "alien2", "alien3"]
     
     let alienCategory: UInt32 = 0x1 << 1
     let photonTorpedoCategory:UInt32 = 0x1 << 0
