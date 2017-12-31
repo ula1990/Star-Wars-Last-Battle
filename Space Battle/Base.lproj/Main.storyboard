@@ -41,10 +41,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8p7-9I-lAG">
-                                <rect key="frame" x="315" y="20" width="60" height="60"/>
+                                <rect key="frame" x="335" y="20" width="40" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="Nv3-Ge-A0Y"/>
-                                    <constraint firstAttribute="height" constant="60" id="cxl-sq-7rG"/>
+                                    <constraint firstAttribute="height" constant="40" id="Asa-PF-y9t"/>
+                                    <constraint firstAttribute="width" constant="40" id="tG4-3i-kpA"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="play"/>
                                 <connections>
@@ -65,12 +65,12 @@
                             <constraint firstItem="JCb-N6-m7J" firstAttribute="bottom" secondItem="Cm3-Rl-Xmz" secondAttribute="bottom" id="GxA-We-jeI"/>
                             <constraint firstItem="JCb-N6-m7J" firstAttribute="bottom" secondItem="mbw-sj-4Km" secondAttribute="bottom" constant="76" id="Pvk-JS-PLi"/>
                             <constraint firstItem="Cm3-Rl-Xmz" firstAttribute="leading" secondItem="JCb-N6-m7J" secondAttribute="leading" id="SjG-LT-lNS"/>
+                            <constraint firstItem="8p7-9I-lAG" firstAttribute="trailing" secondItem="Cm3-Rl-Xmz" secondAttribute="trailing" id="fa2-Ec-HJH"/>
                             <constraint firstItem="JCb-N6-m7J" firstAttribute="trailing" secondItem="Cm3-Rl-Xmz" secondAttribute="trailing" id="heZ-df-ftR"/>
-                            <constraint firstItem="8p7-9I-lAG" firstAttribute="top" secondItem="Cm3-Rl-Xmz" secondAttribute="top" id="jh3-FO-aJ2"/>
                             <constraint firstItem="RWp-fN-shy" firstAttribute="top" secondItem="JCb-N6-m7J" secondAttribute="top" constant="92" id="q9k-Ye-Zet"/>
+                            <constraint firstItem="8p7-9I-lAG" firstAttribute="top" secondItem="Cm3-Rl-Xmz" secondAttribute="top" id="rdj-oj-YUx"/>
                             <constraint firstItem="RWp-fN-shy" firstAttribute="centerX" secondItem="Cm3-Rl-Xmz" secondAttribute="centerX" id="ujq-el-0Ge"/>
                             <constraint firstItem="Cm3-Rl-Xmz" firstAttribute="top" secondItem="JCb-N6-m7J" secondAttribute="top" id="xWo-Oh-5yo"/>
-                            <constraint firstItem="8p7-9I-lAG" firstAttribute="trailing" secondItem="Cm3-Rl-Xmz" secondAttribute="trailing" id="xfu-NH-8B0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JCb-N6-m7J"/>
                     </view>
