@@ -23,6 +23,7 @@ class GameViewController: UIViewController {
             audioPlayer.prepareToPlay()
             audioPlayer.play()
             
+            
         }catch {
             
             print(error)

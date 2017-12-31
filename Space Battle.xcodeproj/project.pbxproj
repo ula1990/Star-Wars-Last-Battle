@@ -20,6 +20,9 @@
 		7519599E1FF81DFA005901F9 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7519599C1FF81DFA005901F9 /* Starfield.sks */; };
 		7519599F1FF81DFA005901F9 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7519599D1FF81DFA005901F9 /* Explosion.sks */; };
 		751959A11FF84115005901F9 /* starwars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 751959A01FF84115005901F9 /* starwars.mp3 */; };
+		752824351FF8E5AF00DA4B95 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752824341FF8E5AF00DA4B95 /* MenuViewController.swift */; };
+		752824371FF8E71900DA4B95 /* chewbacca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 752824361FF8E71900DA4B95 /* chewbacca.mp3 */; };
+		752824391FF8E8F000DA4B95 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 752824381FF8E8F000DA4B95 /* menu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		7519599C1FF81DFA005901F9 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 		7519599D1FF81DFA005901F9 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		751959A01FF84115005901F9 /* starwars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starwars.mp3; sourceTree = "<group>"; };
+		752824341FF8E5AF00DA4B95 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		752824361FF8E71900DA4B95 /* chewbacca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chewbacca.mp3; sourceTree = "<group>"; };
+		752824381FF8E8F000DA4B95 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +84,13 @@
 				751959841FF818D7005901F9 /* GameScene.swift */,
 				751959861FF818D7005901F9 /* GameViewController.swift */,
 				751959881FF818D7005901F9 /* Main.storyboard */,
+				752824341FF8E5AF00DA4B95 /* MenuViewController.swift */,
 				7519598B1FF818D7005901F9 /* Assets.xcassets */,
 				751959961FF81BE2005901F9 /* explosion.mp3 */,
 				751959981FF81C6A005901F9 /* torpede.mp3 */,
 				751959A01FF84115005901F9 /* starwars.mp3 */,
+				752824381FF8E8F000DA4B95 /* menu.mp3 */,
+				752824361FF8E71900DA4B95 /* chewbacca.mp3 */,
 				7519598D1FF818D7005901F9 /* LaunchScreen.storyboard */,
 				751959901FF818D7005901F9 /* Info.plist */,
 			);
@@ -150,12 +159,14 @@
 				751959A11FF84115005901F9 /* starwars.mp3 in Resources */,
 				751959971FF81BE2005901F9 /* explosion.mp3 in Resources */,
 				7519598A1FF818D7005901F9 /* Main.storyboard in Resources */,
+				752824371FF8E71900DA4B95 /* chewbacca.mp3 in Resources */,
 				7519599E1FF81DFA005901F9 /* Starfield.sks in Resources */,
 				751959811FF818D7005901F9 /* GameScene.sks in Resources */,
 				7519598C1FF818D7005901F9 /* Assets.xcassets in Resources */,
 				7519598F1FF818D7005901F9 /* LaunchScreen.storyboard in Resources */,
 				751959991FF81C6A005901F9 /* torpede.mp3 in Resources */,
 				751959831FF818D7005901F9 /* Actions.sks in Resources */,
+				752824391FF8E8F000DA4B95 /* menu.mp3 in Resources */,
 				7519599F1FF81DFA005901F9 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +181,7 @@
 				751959851FF818D7005901F9 /* GameScene.swift in Sources */,
 				751959871FF818D7005901F9 /* GameViewController.swift in Sources */,
 				7519597F1FF818D7005901F9 /* AppDelegate.swift in Sources */,
+				752824351FF8E5AF00DA4B95 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

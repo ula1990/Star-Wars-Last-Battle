@@ -87,7 +87,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         let alien = SKSpriteNode(imageNamed: possibleAliens[0] )
         
-        let randomAlienPosition = GKRandomDistribution(lowestValue: -500, highestValue: 500)
+        let randomAlienPosition = GKRandomDistribution(lowestValue: -350, highestValue: 350)
         let position = CGFloat(randomAlienPosition.nextInt())
         
         alien.position = CGPoint(x: position, y: self.frame.size.height + alien.size.height)
@@ -195,12 +195,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     
     override func didSimulatePhysics() {
-        player.position.x += xAcceleration * 50
+        player.position.x += xAcceleration * 60
         
-        if player.position.x < -400 {
-            player.position = CGPoint(x: self.size.width + 400, y: player.position.y)
-        }else if player.position.x > self.size.width + 400 {
-            player.position = CGPoint(x: -400, y: player.position.y)
+        if player.position.x < -300 {
+            player.position = CGPoint(x: self.size.width + 300, y: player.position.y)
+        }else if player.position.x > self.size.width + 300 {
+            player.position = CGPoint(x: -300, y: player.position.y)
         }
     }
     
