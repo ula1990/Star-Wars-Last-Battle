@@ -70,8 +70,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         var timeInterval = 0.60
         
         func difficulty(){
-            if score >= 20 {
+            if score >= 15 && score <= 25 {
                 return timeInterval = 0.40
+            }else if score >= 26 {
+                return timeInterval = 0.30
             }else{
                 return timeInterval = 0.60
             }
