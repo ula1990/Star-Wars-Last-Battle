@@ -13,6 +13,7 @@ class MenuViewController: UIViewController {
     
     var audioPlayer = AVAudioPlayer()
 
+
     @IBOutlet weak var sound: UIButton!
     
     //SOUND BUTTON
@@ -39,6 +40,9 @@ class MenuViewController: UIViewController {
         }
         
     }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

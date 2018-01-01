@@ -22,7 +22,10 @@
 		751959A11FF84115005901F9 /* starwars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 751959A01FF84115005901F9 /* starwars.mp3 */; };
 		752824351FF8E5AF00DA4B95 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752824341FF8E5AF00DA4B95 /* MenuViewController.swift */; };
 		752824371FF8E71900DA4B95 /* chewbacca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 752824361FF8E71900DA4B95 /* chewbacca.mp3 */; };
-		752824391FF8E8F000DA4B95 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 752824381FF8E8F000DA4B95 /* menu.mp3 */; };
+		7528243B1FF8FE2700DA4B95 /* r2beeping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7528243A1FF8FE2700DA4B95 /* r2beeping.mp3 */; };
+		7561BDAE1FFA6E1400947CA6 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7561BDAD1FFA6E1400947CA6 /* GameOverScene.sks */; };
+		7561BDB01FFA6E5200947CA6 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561BDAF1FFA6E5200947CA6 /* GameOverScene.swift */; };
+		7561BDB41FFAA96200947CA6 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7561BDB31FFAA96200947CA6 /* menu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +46,10 @@
 		751959A01FF84115005901F9 /* starwars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starwars.mp3; sourceTree = "<group>"; };
 		752824341FF8E5AF00DA4B95 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		752824361FF8E71900DA4B95 /* chewbacca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chewbacca.mp3; sourceTree = "<group>"; };
-		752824381FF8E8F000DA4B95 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
+		7528243A1FF8FE2700DA4B95 /* r2beeping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = r2beeping.mp3; sourceTree = "<group>"; };
+		7561BDAD1FFA6E1400947CA6 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		7561BDAF1FFA6E5200947CA6 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		7561BDB31FFAA96200947CA6 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,24 +83,59 @@
 			isa = PBXGroup;
 			children = (
 				7519597E1FF818D7005901F9 /* AppDelegate.swift */,
-				751959801FF818D7005901F9 /* GameScene.sks */,
-				751959821FF818D7005901F9 /* Actions.sks */,
-				7519599D1FF81DFA005901F9 /* Explosion.sks */,
-				7519599C1FF81DFA005901F9 /* Starfield.sks */,
-				751959841FF818D7005901F9 /* GameScene.swift */,
-				751959861FF818D7005901F9 /* GameViewController.swift */,
 				751959881FF818D7005901F9 /* Main.storyboard */,
 				752824341FF8E5AF00DA4B95 /* MenuViewController.swift */,
+				751959861FF818D7005901F9 /* GameViewController.swift */,
+				7561BDB51FFAACA500947CA6 /* GameOverScene */,
+				7589B5681FF99F35008BD858 /* Sounds */,
+				7589B5691FF99F4A008BD858 /* GameScene */,
+				7561BDA81FFA5AD500947CA6 /* Emmitters */,
 				7519598B1FF818D7005901F9 /* Assets.xcassets */,
-				751959961FF81BE2005901F9 /* explosion.mp3 */,
-				751959981FF81C6A005901F9 /* torpede.mp3 */,
-				751959A01FF84115005901F9 /* starwars.mp3 */,
-				752824381FF8E8F000DA4B95 /* menu.mp3 */,
-				752824361FF8E71900DA4B95 /* chewbacca.mp3 */,
 				7519598D1FF818D7005901F9 /* LaunchScreen.storyboard */,
 				751959901FF818D7005901F9 /* Info.plist */,
 			);
 			path = "Space Battle";
+			sourceTree = "<group>";
+		};
+		7561BDA81FFA5AD500947CA6 /* Emmitters */ = {
+			isa = PBXGroup;
+			children = (
+				751959821FF818D7005901F9 /* Actions.sks */,
+				7519599D1FF81DFA005901F9 /* Explosion.sks */,
+				7519599C1FF81DFA005901F9 /* Starfield.sks */,
+			);
+			path = Emmitters;
+			sourceTree = "<group>";
+		};
+		7561BDB51FFAACA500947CA6 /* GameOverScene */ = {
+			isa = PBXGroup;
+			children = (
+				7561BDAD1FFA6E1400947CA6 /* GameOverScene.sks */,
+				7561BDAF1FFA6E5200947CA6 /* GameOverScene.swift */,
+			);
+			path = GameOverScene;
+			sourceTree = "<group>";
+		};
+		7589B5681FF99F35008BD858 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				751959961FF81BE2005901F9 /* explosion.mp3 */,
+				751959981FF81C6A005901F9 /* torpede.mp3 */,
+				751959A01FF84115005901F9 /* starwars.mp3 */,
+				7528243A1FF8FE2700DA4B95 /* r2beeping.mp3 */,
+				7561BDB31FFAA96200947CA6 /* menu.mp3 */,
+				752824361FF8E71900DA4B95 /* chewbacca.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		7589B5691FF99F4A008BD858 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				751959801FF818D7005901F9 /* GameScene.sks */,
+				751959841FF818D7005901F9 /* GameScene.swift */,
+			);
+			path = GameScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,18 +197,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7561BDAE1FFA6E1400947CA6 /* GameOverScene.sks in Resources */,
 				751959A11FF84115005901F9 /* starwars.mp3 in Resources */,
 				751959971FF81BE2005901F9 /* explosion.mp3 in Resources */,
 				7519598A1FF818D7005901F9 /* Main.storyboard in Resources */,
 				752824371FF8E71900DA4B95 /* chewbacca.mp3 in Resources */,
 				7519599E1FF81DFA005901F9 /* Starfield.sks in Resources */,
 				751959811FF818D7005901F9 /* GameScene.sks in Resources */,
+				7561BDB41FFAA96200947CA6 /* menu.mp3 in Resources */,
 				7519598C1FF818D7005901F9 /* Assets.xcassets in Resources */,
 				7519598F1FF818D7005901F9 /* LaunchScreen.storyboard in Resources */,
 				751959991FF81C6A005901F9 /* torpede.mp3 in Resources */,
 				751959831FF818D7005901F9 /* Actions.sks in Resources */,
-				752824391FF8E8F000DA4B95 /* menu.mp3 in Resources */,
 				7519599F1FF81DFA005901F9 /* Explosion.sks in Resources */,
+				7528243B1FF8FE2700DA4B95 /* r2beeping.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7561BDB01FFA6E5200947CA6 /* GameOverScene.swift in Sources */,
 				751959851FF818D7005901F9 /* GameScene.swift in Sources */,
 				751959871FF818D7005901F9 /* GameViewController.swift in Sources */,
 				7519597F1FF818D7005901F9 /* AppDelegate.swift in Sources */,

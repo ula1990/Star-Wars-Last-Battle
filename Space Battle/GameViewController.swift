@@ -14,6 +14,10 @@ import AVFoundation
 class GameViewController: UIViewController {
     
     var audioPlayer = AVAudioPlayer()
+    
+    
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +33,7 @@ class GameViewController: UIViewController {
             print(error)
             
         }
-        
+
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
